@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/helper.css">
+        <link rel="stylesheet" type="text/css" href="css/colorbox.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.9.2.custom.min.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="main-container">
+            <div id="shirt_config_area">
+                <div id="base_fabric_trigger">
+                    Base
+                </div>
+                <div id="trim_fabric_trigger">
+                    Trim
+                </div>
+                <div id="collar_trigger">
+                    Collar
+                </div>
+                <div id="buttons_trigger">
+                    Buttons
+                </div>
+                <div id="cuffs_trigger">
+                    Cuffs
+                </div>
+                <div id="placket_trigger">
+                    Placket
+                </div>
+                <div id="pocket_trigger">
+                    Pocket
+                </div>
+                <div id="pleat_trigger">
+                    Pleat
+                </div>
+                <div id="shirt_display_area">                     
+                    <div id="base_display">
+                        <img src="img/BlackSkull/SBase1.png" data-type="base">
+                    </div>
+                    <div id="buttons_display">
+                        <!-- <img src="img/"> -->
+                    </div>
+                    <div id="collar_inner_display">
+                        <img src="img/BlackSkull/CollarInner.png" data-type="innerCollarBack">
+                    </div>
+                    <div id="collar_outer_display">
+                        <img src="img/BlackSkull/CollarOuter.png" data-type="innerCollarFront">
+                    </div>
+                    <div id="collar_display">
+                        <img src="img/BlackSkull/CRounded.png" data-type="collar">
+                    </div>
+                    <div id="sleeve_display">
+                        <img src="img/BlackSkull/SSleeve.png" data-type="sleeve">
+                    </div>
+                    <div id="cuff_outer_display">
+                        <img src="img/BlackSkull/SCut.png" data-type="cuff">
+                    </div>
+                    <div id="cuff_inner_display">
+                        <img src="img/BlackSkull/SCutInner.png" data-type="cuffInner">
+                    </div>
+                    <div id="tag_display">
+                        <img src="img/BlackSkull/TagBase.png" data-type="cuff">
+                    </div>
+                    <div id="pocket_display">
+                        <img src="img/BlackSkull/PocketBase.png" data-type="pocket">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-type="Base">
+            <div class="inline-block">
+                <img src="img/Black Skull/Thumbnail.png">
+            </div>
+            <div class="inline-block">
+                <img src="img/Casual Checks/Thumbnail.png">                    
+            </div>
+        </div>
+        <div data-type="Trim">
+
+        </div>
+        <div id="accordion_box" class="visuallyhidden">
+
+            <div data-type="Cuff" class="colorbox_container">
+                <img src="img/ui-images/cuff-ui.png" class="category-image">
+                <div class="popup-accordion">
+                    <h3>Types</h3>
+                    <div class="options_container">
+                        <div class="option" data-link="SCut">Single Cuff - Cut</div>
+                        <div class="option" data-link="SCutInner">Single Cuff - Cut Inner Lining</div>
+                        <div class="option" data-link="SRound">Single Cuff - Round</div>
+                        <div class="option" data-link="SRoundInner">Single Cuff - Round Inner Lining</div>
+                        <div class="option" data-link="SSquare">Single Cuff - Square</div>
+                        <div class="option" data-link="SSquareInner">Single Cuff - Square Inner Lining</div>
+                        <div class="option" data-link="DCut">Double Cuff - Cut</div>
+                        <div class="option" data-link="DCutInner">Double Cuff - Cut Inner Lining</div>
+                        <div class="option" data-link="DMCristo">Double Cuff - Monte Cristo</div>
+                        <div class="option" data-link="DMCristoInner">Double Cuff - Monte Cristo Inner Lining</div>
+                        <div class="option" data-link="DRound">Double Cuff - Round</div>
+                        <div class="option" data-link="DRoundInner">Double Cuff - Round Inner Lining</div>
+                        <div class="option" data-link="DSquare">Double Cuff - Square</div>
+                        <div class="option" data-link="DSquareInner">Double Cuff - Square Inner Lining</div>
+                    </div>
+                    <h3>Cuff Trim</h3>
+                    <div class="options_container">
+                        <div class="option">Inner Cuff</div>
+                        <div class="option">Outer Cuff</div>
+                    </div>
+                    <h3>Watch</h3>
+                    <div class="options_container">
+                        <div class="option">Left</div>
+                        <div class="option">Right</div>
+                        <div class="option">Both</div>
+                        <div class="option">None</div>
+                    </div>
+                    <h3>Cuff Height</h3>
+                    <div class="options_container">
+                        <div class="option">2.25</div>
+                        <div class="option">2.75</div>
+                        <div class="option">3.25</div>
+                    </div>
+                    <h3>Cuff Buttons</h3>
+                    <div class="options_container">
+                        <div class="option">1</div>
+                        <div class="option">2</div>
+                    </div>
+                </div>
+            </div>
+            <div data-type="Collar" class="colorbox_container">
+                <div class="popup-accordion">
+                    <h3>Collar Types</h3>
+                    <div class="options_container">
+                        <div class="option" data-link="CRounded">Rounded</div>
+                        <div class="option" data-link="CButtoned">Button Down</div>
+                        <div class="option" data-link="CLCutaway">Long - Cutaway</div>
+                        <div class="option" data-link="CLNarrow">Long - Narrow</div>
+                        <div class="option" data-link="CLRegular">Long - Regular</div>
+                        <div class="option" data-link="CSCutaway">Short - Cutaway</div>
+                        <div class="option" data-link="CSNarrow">Short - Narrow</div>
+                        <div class="option" data-link="CSRegular">Short - Regular</div>
+                    </div>
+                    <h3>Collar Trim</h3>
+                    <div class="options_container">
+                        <div class="option">Inner Collar</div>
+                        <div class="option">Outer Collar</div>
+                        <div class="option">Collar Wing</div>
+                    </div>
+                    <h3>Collar Point</h3>
+                    <div class="options_container">
+                        <div class="option">2.25</div>
+                        <div class="option">2.75</div>
+                        <div class="option">3.25</div>
+                    </div>
+                    <h3>Collar Button</h3>
+                    <div class="options_container">
+                        <div class="option">1</div>
+                        <div class="option">2</div>
+                    </div>
+                    <h3>Removable Stays</h3>
+                    <div class="options_container">
+                        <div class="option">Yes</div>
+                        <div class="option">No</div>
+                    </div>
+                </div>
+            </div>
+            <div data-type="Placket" class="colorbox_container">
+                <div class="popup-accordion">
+                    <h3>Placket Type</h3>
+                    <div class="options_container">
+                        <div class="option">Plain Front</div>
+                        <div class="option">Front Panel</div>
+                        <div class="option">Concealed</div>
+                    </div>
+                    <h3>Placket Trim</h3>
+                    <div class="options_container">
+                        <div class="option">Under Placket</div>
+                    </div>
+                </div>
+            </div>
+            <div data-type="Pocket" class="colorbox_container">
+                <div class="popup-accordion">
+                    <h3>Pocket Type</h3>
+                    <div class="options_container">
+                        <div class="option">Normal</div>
+                        <div class="option">With Pen Holder</div>
+                        <div class="option">None</div>
+                    </div> 
+                </div>
+            </div>
+            <div data-type="Buttons" class="colorbox_container">
+                <div class="popup-accordion">
+                    <h3>Button Color</h3>
+                    <div class="options_container"></div>
+                    <h3>Button Hole Color</h3>
+                    <div class="options_container"></div>
+                </div>
+            </div>
+            <div data-type="Pleat" class="colorbox_container">
+                <div class="popup-accordion">
+                    <h3>Pleat Type</h3>
+                    <div class="options_container">
+                        <div class="option">Centre</div>
+                        <div class="option">Side</div>
+                        <div class="option">Plain</div>
+                        <div class="option">Darts</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-ui-1.9.2.custom.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- 
+        Google Analytics: change UA-XXXXX-X to be your site's ID. 
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        -->
+    </body>
+</html>
